@@ -1,0 +1,35 @@
+*{
+    margin:0; /*Tüm etiketlerin cssleri 0 oldu*/
+}
+
+.icerik{
+    margin:auto; /*boşlukları otomatik veriri. genellikle width ile kullanılır ve kutunun ekranın ortasında gelmesi sağlanır*/
+    width: 400px; /*kutu genişliği*/
+    color:#dfe4ea;
+    background-color: #57606f;
+    text-align: center; /*yazıyı ortala*/
+}
+
+/*“kita_cift” sınıfına sahip kıtaların Yazı rengi  ve arkaplan renginin yapılması*/
+
+.kita_tek{
+    color:#ff3838; /*yazı renggi*/
+    background-color: #ffcccc; /*arkaplan rengi*/
+}
+
+.kita_cift{
+    color:#ffcccc;
+    background-color: #ff3838 ;
+}
+/*ikisinde ortak olduğu için grup seçici kullanacağım*/
+.kita_tek, .kita_cift{
+    border:#333 solid 5px;
+    padding:10px;/*iç boşluk*/
+    margin:10px;/*dış boşluk*/
+}
+
+/*id -> # ile gösterilir*/
+#baslik{
+    background-color: #192a56;
+    padding:10px;
+}
